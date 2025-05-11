@@ -1,0 +1,14 @@
+package
+{
+  "name": "auto-class",
+  "version": "1.0.0",
+  "type": "commonjs",
+  "main": "index.cjs",
+  "scripts": {
+    "start": "node index.cjs",
+    "postinstall": "npx playwright install --with-deps"
+  },
+  "dependencies": {
+    "playwright": "^1.44.0"
+  }
+}
